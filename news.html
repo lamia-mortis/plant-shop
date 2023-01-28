@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Landix News</title>
+</head>
+<body>
+  <nav class="nav">
+    <div>
+      <a href="index.html" class="nav_logo_link">
+        <img src="img/logo_landix.svg">
+      </a>
+    </div>
+    <div class="nav_container_list">
+      <ul class="nav_list">
+        <a href="index.html" class="nav_list_link">
+          <li class="nav_list_item">Головна</li>
+        </a>
+        <a href="about.html" class="nav_list_link">
+          <li class="nav_list_item">Про нас</li>
+        </a>
+        <a href="product.html" class="nav_list_link">
+          <li class="nav_list_item">Наші продукти</li>
+        </a>
+        <a href="news.html" class="nav_list_link">
+          <li class="nav_list_item">Що нового</li>
+        </a>
+      </ul>
+    </div>
+    <a href="contacts.html" class="nav_list_link">
+      <p class="nav_list_item">Контакти</p>
+    </a>
+  </nav>
+  <section class="news_section">
+    <div class="upper_news">
+      <div class="upper_news_item wow swing">
+        <img src="img/news_img_1.png" class="news_img">
+        <p class="news_text">Нові умови ворищування рослин</p>        
+      </div>
+      <div class="upper_news_item wow fadeIn">
+        <img src="img/news_img_3.png" class="news_img">
+        <p class="news_text">Щоденний догляд</p>
+      </div>
+    </div>
+    <div class="lower_news">
+        <div>
+          <iframe src="https://www.youtube.com/embed/A4pmZ45BY1I" height="250px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="news_img news_mov wow fadeIn"></iframe>
+          <p class="news_text">Дивовижні рослини</p>
+        </div>
+      <div class="lower_news_item wow swing">
+        <img src="img/news_img_4.png" class="news_img3">
+        <p class="news_text">Курси для початківців</p>
+      </div>
+    </div>
+  </section>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
